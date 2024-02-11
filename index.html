@@ -4,36 +4,56 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
-    <title>Simple website | web</title>
+    <title>Simple SEO page | web</title>
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
   </head>
   <body>
-    <nav>
-      <div class="menu">
-        <div class="logo">
-          <a href="./index.html">CodingHub</a>
+    <main>
+      <!-- Header Start -->
+      <header>
+        <nav class="nav container">
+          <h2 class="nav_logo"><a href="#">CodingNepal</a></h2>
+
+          <ul class="menu_items">
+            <img src="/images/times.svg" alt="timesIcon" id="menu_toggle" />
+            <li><a href="#" class="nav_link">Home</a></li>
+            <li><a href="#" class="nav_link">About</a></li>
+            <li><a href="#" class="nav_link">Service</a></li>
+            <li><a href="#" class="nav_link">Project</a></li>
+            <li><a href="#" class="nav_link">Contact</a></li>
+          </ul>
+          <img src="/images/bars.svg" alt="barsIcon" id="menu_toggle" />
+        </nav>
+      </header>
+      <!-- Header End -->
+
+      <!-- Hero Start -->
+      <section class="hero">
+        <div class="row container">
+          <div class="column">
+            <h2>
+              Top free tool and extension to <br />rapidly grow your business
+            </h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores
+              voluptatibus, molestiae voluptatum laudantium, doloribus illum
+              quod quasi nam nobis reiciendis nulla. Esse voluptate amet sit
+              sequi? Reiciendis sapiente debitis perferendis quia unde
+              dignissimos repellat non.
+            </p>
+            <div class="button">
+              <button class="btn">Read More</button>
+              <button class="btn">Contact Us</button>
+            </div>
+          </div>
+          <div class="column">
+            <img src="./images/hero.png" alt="heroImg" class="hero_img" />
+          </div>
         </div>
-        <ul>
-          <li><a href="./index.html">Home</a></li>
-          <li><a href="./about.html">About</a></li>
-          <li><a href="#">Services</a></li>
-          <li><a href="#">Feedback</a></li>
-        </ul>
-      </div>
-    </nav>
-    <div class="img"></div>
-    <div class="center">
-      <div class="title">Create Amazing Website</div>
-      <div class="sub-title">
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque
-        accusamus dignissimos veniam tenetur blanditiis dolore possimus, numquam
-        dolores ipsum quas corporis earum perspiciatis repellendus natus enim
-        aspernatur a. Facere, debitis.
-      </div>
-      <div class="btns">
-        <button>Join now</button>
-        <button>Learn More</button>
-      </div>
-    </div>
+        <img src="images/bg-bottom-hero.png" alt="" class="curveImg" />
+      </section>
+      <!-- Hero End -->
+    </main>
+    <script src="script.js"></script>
   </body>
 </html>
